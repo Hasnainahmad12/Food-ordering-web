@@ -1,0 +1,18 @@
+.product{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.product span{
+    color: goldenrod;
+}
+
+.product__section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+
+}

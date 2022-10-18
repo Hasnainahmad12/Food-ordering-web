@@ -1,0 +1,102 @@
+.Contact__us{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.Contact__us span{
+    color: goldenrod;
+}
+
+.tele__pic{
+    height: 370px;
+    width: 440px;
+    padding-left: 50px;
+}
+
+.form__div {
+    margin-top: -30%;
+    margin-left: 20%;   
+}
+
+.form {
+    margin-left: 20%;
+}
+
+.form input{
+    height: 35px;
+    width: 90%;
+    background: black;
+    color: white;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+
+.form__button {
+    color: white;
+    height: 45px;
+    width: 180px;
+    background: goldenrod;
+    border-radius: 5px;
+    margin-left: 35%;
+}
+
+.form__head{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+
+}
+
+.form__head span{
+    color: goldenrod;
+}
+
+.span__tag{
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+@media (max-width:800px) {
+
+    .tele__pic{
+        height: 320px;
+        width: 330px;
+        padding-left: 20px;
+    }
+    
+    .form__div {
+        margin-top: 5%;
+        margin-left: -10%;
+    }
+ 
+    
+    .form__button {
+    color: white;
+    height: 45px;
+    width: 150px;
+    background: goldenrod;
+    border-radius: 5px;
+    margin-left: 22%;
+}
+
+}
+
+/* @media (max-width:500px) {
+    .tele__pic{
+        height: 300px;
+        width: 300px;
+        padding-left: 20px;
+        border-radius: 10px;
+    }
+ 
+    .form__div {
+        margin-top: 5%;
+        margin-left: -12%;
+    }
+    
+} */

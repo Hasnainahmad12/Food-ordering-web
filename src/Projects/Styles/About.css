@@ -1,0 +1,119 @@
+.main__about{
+    color: white;
+}
+
+.main__about p{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.about__us{
+    color: rgb(161, 120, 16);
+}
+
+.img__pizaa{
+    border-radius: 10px;
+    margin-left: 50px;
+    height: 430px;
+    width: 620px;
+
+}
+
+.blur__div {
+    height: 430px;
+    width: 500px;
+    background: rgb(64, 63, 63);
+    margin-left: 55%;
+    margin-top: -32%;
+    border-radius: 10px;
+    /* text-align: center; */
+    padding: 10px;
+}
+
+.main__head {
+    text-align: center;
+    color: rgb(202, 151, 22);
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.div__paragh{
+    color: white;
+    font-size: 17px;
+
+}
+
+.button__more{
+
+    color: white;
+    height: 45px;
+    width: 450px;
+    background: goldenrod;
+    font-weight: bold;
+    margin-left: 3%;
+    border-radius: 5px;
+    margin-top: 20px;
+    }
+
+@media (max-width:800px) {
+
+    .img__pizaa{
+        border-radius: 10px;
+        height: 350px;
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blur__div {
+        height: 430px;
+        width: 400px;
+        background: rgb(64, 63, 63);
+        border-radius: 10px;
+        margin-top: 16%;
+        margin-left: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+ 
+    .button__more{
+
+        color: white;
+        height: 35px;
+        width: 350px;
+        background: goldenrod;
+        font-weight: bold;
+        margin-left: 2%;
+        border-radius: 5px;
+        }
+    
+}
+
+@media (max-width:500px) {
+ 
+    .img__pizaa{
+        border-radius: 10px;
+        height: 350px;
+        width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blur__div {
+        height: 480px;
+        width: 350px;
+        background: rgb(64, 63, 63);
+        border-radius: 10px;
+        margin-top: 14%;
+        margin-left: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+ 
+}
